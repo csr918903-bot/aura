@@ -1,0 +1,23 @@
+
+:root{
+    --cor-primaria:#3498db;
+    --cor-secundaria:#2c3e50;
+    --espacamento:16px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espacamento);
+    background: var(--cor-primaria);
+    color:aliceblue;
+}
